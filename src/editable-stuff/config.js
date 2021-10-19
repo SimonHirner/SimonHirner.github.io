@@ -1,23 +1,23 @@
 // Navigation Bar SECTION
 const navBar = {
-  show: false,
+  show: true,
 };
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0",
+  gradientColors: "#05B2F1, #037CF5, #014CFD",
   firstName: "Simon",
   middleName: "",
   lastName: "Hirner",
-  message: " Passionate about changing the world with technology. ",
+  message: " Software Developer | Information Systems and Management Undergraduate | IT Management Assistant ",
   icons: [
-    {
-      image: "fa-github",
-      url: "https://github.com/SimonHirner",
-    },
     {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/simon-hirner/",
+    },
+    {
+      image: "fa-github",
+      url: "https://github.com/SimonHirner",
     },
   ],
 };
@@ -53,9 +53,9 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
+  heading: "Projects",
   gitHubUsername: "SimonHirner", //i.e."johnDoe12Gh"
-  reposLength: 8,
+  reposLength: 6,
   specificRepos: [],
 };
 
@@ -114,12 +114,12 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm always looking for new opportunities! If you know of any positions available, or if you have any questions, please feel free to email me at",
+    "If you have any questions, please feel free to email me at",
   email: "simon.hirner99@gmail.com",
 };
 
 const experiences = {
-  show: true,
+  show: false,
   heading: "Experiences",
   data: [
     {

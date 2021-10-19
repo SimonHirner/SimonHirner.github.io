@@ -8,16 +8,10 @@ const Footer = (props) => {
     <footer style={bgStyle} className="mt-auto py-5 text-center ">
       <Container>
         {props.children}
-        <i className="fas fa-code" /> with <i className="fas fa-heart" /> by{" "}
-        <a
-          className="badge badge-dark"
-          rel="noopener"
-          href="https://github.com/simonhirner"
-          aria-label="My GitHub"
-        >
-          Simon Hirner
-        </a>{" "}
-        using <i className="fab fa-react" />
+        <font color="grey">
+          <i className="far fa-copyright" />
+          &nbsp;2021&nbsp;Simon&nbsp;Hirner
+        </font>
       </Container>
     </footer>
   );

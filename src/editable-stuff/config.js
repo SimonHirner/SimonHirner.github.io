@@ -42,8 +42,8 @@ const about = {
   imageLink: require("../editable-stuff/simonhirner.jpg"),
   imageSize: 375,
   message:
-    "My name is Simon Hirner. I’m a Undergraduate in Information Systems and Management at Munich University of Applied Sciences.",
-  //resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is Simon Hirner. I'm currently studying Information Systems and Management at Munich University of Applied Sciences.",
+  //resume: "",
 };
 
 // PROJECTS SECTION
@@ -55,7 +55,7 @@ const repos = {
   show: true,
   heading: "Projects",
   gitHubUsername: "SimonHirner", //i.e."johnDoe12Gh"
-  reposLength: 6,
+  reposLength: 8,
   specificRepos: [],
 };
 

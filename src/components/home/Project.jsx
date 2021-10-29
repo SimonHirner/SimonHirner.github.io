@@ -26,9 +26,11 @@ const Project = ({ heading, username, length, specfic }) => {
 
   const [projectsArray, setProjectsArray] = useState([]);
 
+
   const fetchRepos = useCallback(async () => {
     let repoList = [];
     try {
+      /*
       // getting all repos
       const response = await axios.get(allReposAPI);
       // slicing to the length
@@ -42,6 +44,28 @@ const Project = ({ heading, username, length, specfic }) => {
       } catch (error) {
         console.error(error.message);
       }
+      */
+
+      repoList =
+        [
+          {
+            "name": "Hello-World",
+            "html_url": "https://github.com/SimonHirner/SimonHirner.github.io",
+            "description": "This your first repo!",
+            "stargazers_count": 80,
+            "languages_url": "https://api.github.com/repos/SimonHirner/kubernetes-jenkins-simplist/languages",
+            "topics": [
+              "octocat",
+              "atom",
+              "electron",
+              "api"
+            ],
+            "pushed_at": "2011-01-26T19:06:43Z",
+            "created_at": "2011-01-26T19:01:12Z",
+            "updated_at": "2011-01-26T19:14:43Z",
+          }
+        ];
+
       // setting projectArray
       // TODO: remove the duplication.
       setProjectsArray(repoList);
@@ -49,6 +73,7 @@ const Project = ({ heading, username, length, specfic }) => {
       console.error(error.message);
     }
   }, [allReposAPI, length, specfic, specficReposAPI]);
+
 
   useEffect(() => {
     fetchRepos();
@@ -61,22 +86,22 @@ const Project = ({ heading, username, length, specfic }) => {
         <Row>
           {projectsArray.length
             ? projectsArray.map((project, index) => (
-                <ProjectCard
-                  key={`project-card-${index}`}
-                  id={`project-card-${index}`}
-                  value={project}
-                />
-              ))
+              <ProjectCard
+                key={`project-card-${index}`}
+                id={`project-card-${index}`}
+                value={project}
+              />
+            ))
             : dummyProjectsArr.map((project, index) => (
-                <ProjectCard
-                  key={`dummy-${index}`}
-                  id={`dummy-${index}`}
-                  value={project}
-                />
-              ))}
+              <ProjectCard
+                key={`dummy-${index}`}
+                id={`dummy-${index}`}
+                value={project}
+              />
+            ))}
         </Row>
       </Container>
-    </Jumbotron>
+    </Jumbotron >
   );
 };
 

@@ -2,40 +2,35 @@ import React, { useState, useEffect, useCallback } from "react";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Skeleton from "react-loading-skeleton";
-import axios from "axios";
 
 const ProjectCard = ({ value }) => {
   const {
     name,
     description,
     html_url,
-    stargazers_count,
-    languages_url,
-    pushed_at,
+    type,
   } = value;
   return (
     <Col md={6}>
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
         <Card.Body>
           <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
-          <Card.Text>{(!description) ? "" : description || <Skeleton count={3} />} </Card.Text>
-          {html_url ? <CardButtons html_url={html_url} /> : <Skeleton count={1} />}
+          <Card.Subtitle class="text-muted">{type || <Skeleton />} </Card.Subtitle>
           <hr />
-          {languages_url ? (
-            <Language languages_url={languages_url} repo_url={html_url} />
-          ) : (
-            <Skeleton count={3} />
-          )}
-          {value ? (
-            <CardFooter star_count={stargazers_count} repo_url={html_url} pushed_at={pushed_at} />
-          ) : (
-            <Skeleton />
-          )}
+          <Card.Text>
+            {(!description) ? "" : <List items={description} /> || <Skeleton count={3} />}
+          </Card.Text>
+          {html_url ? <CardButtons html_url={html_url} /> : ""}
         </Card.Body>
       </Card>
     </Col>
   );
 };
+
+const List = ({ items }) => {
+  const listItems = items.map((items) => <li>{items}</li>); return (
+    <ul>{listItems}</ul>);
+}
 
 const CardButtons = ({ html_url }) => {
   return (
@@ -47,6 +42,7 @@ const CardButtons = ({ html_url }) => {
   );
 };
 
+/*
 const Language = ({ languages_url, repo_url }) => {
   const [data, setData] = useState([]);
 
@@ -89,7 +85,9 @@ const Language = ({ languages_url, repo_url }) => {
     </div>
   );
 };
+*/
 
+/*
 const CardFooter = ({ star_count, repo_url, pushed_at }) => {
   return (
     <p className="card-text">
@@ -97,5 +95,6 @@ const CardFooter = ({ star_count, repo_url, pushed_at }) => {
     </p>
   );
 };
+*/
 
 export default ProjectCard;

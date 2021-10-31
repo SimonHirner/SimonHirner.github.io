@@ -3,7 +3,6 @@ import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Row from "react-bootstrap/Row";
 import ProjectCard from "./ProjectCard";
-import axios from "axios";
 
 const dummyProject = {
   name: null,
@@ -49,21 +48,52 @@ const Project = ({ heading, username, length, specfic }) => {
       repoList =
         [
           {
-            "name": "Hello-World",
-            "html_url": "https://github.com/SimonHirner/SimonHirner.github.io",
-            "description": "This your first repo!",
-            "stargazers_count": 80,
-            "languages_url": "https://api.github.com/repos/SimonHirner/kubernetes-jenkins-simplist/languages",
-            "topics": [
-              "octocat",
-              "atom",
-              "electron",
-              "api"
+            "name": "Learning management system",
+            "type": "Project at Munich University of Applied Sciences",
+            "html_url": "https://github.com/SimonHirner/agenda20",
+            "description": [
+              "Web application for managing courses and tasks",
+              "Eight weeks of development",
+              "Tech stack: Java (Spring Boot), HTML, CSS",
             ],
-            "pushed_at": "2011-01-26T19:06:43Z",
-            "created_at": "2011-01-26T19:01:12Z",
-            "updated_at": "2011-01-26T19:14:43Z",
-          }
+            "languages_url": "https://api.github.com/repos/SimonHirner/agenda20/languages",
+          },
+          {
+            "name": "Native chat application",
+            "type": "Project at Munich University of Applied Sciences",
+            "html_url": "https://github.com/SimonHirner/chat-app",
+            "description": [
+              "Native java application with client–server model",
+              "Tech stack: Java (JavaFX)",
+            ],
+            "languages_url": "https://api.github.com/repos/SimonHirner/chat-app/languages",
+          },
+          {
+            "name": "Decentralized application for trading intangible assets",
+            "type": "Project at Munich University of Applied Sciences",
+            "html_url": "https://github.com/SimonHirner/bazinga-dapp",
+            "description": [
+              "Blockchain project with smart contracts and React frontend",
+              "Three weeks of development",
+              "Tech stack: JavaScript (React), Solidity, Ethereum",
+            ],
+            "languages_url": "https://api.github.com/repos/SimonHirner/bazinga-dapp/languages",
+          },
+          {
+            "name": "Application for distributed test execution with Kubernetes",
+            "type": "Project at WWK Lebensversicherung a. G.",
+            "description": [
+              "Web application for execution and monitoring of domain specific test cases on Kubernetes Cluster",
+              "Tech stack: Java (Spring Boot, Kubernetes Client API), JavaScript (Vue.js), PostgreSQL, Docker, Kubernetes",
+            ],
+          },
+          {
+            "name": "Design and deployment of microservices with Kubernetes",
+            "type": "Bachelor thesis at Munich University of Applied Sciences",
+            "description": [
+              "Currently in progress",
+            ],
+          },
         ];
 
       // setting projectArray
@@ -72,7 +102,7 @@ const Project = ({ heading, username, length, specfic }) => {
     } catch (error) {
       console.error(error.message);
     }
-  }, [allReposAPI, length, specfic, specficReposAPI]);
+  });
 
 
   useEffect(() => {

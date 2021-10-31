@@ -119,26 +119,30 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer (Internship)',// Here Add Company Name
+      role: 'Software Developer (Internship)',// Here Add Company Name
+      url: 'https://www.wwk.de/',
       companylogo: require('../assets/img/wwk.png'),
       date: 'Nov 2020 – Present',
     },
     {
       role: 'Information Systems and Management (Bachelor of Science)',
+      url: 'https://www.hm.edu/',
       companylogo: require('../assets/img/hm.png'),
       date: 'Oct 2018 – Present',
     },
     {
       role: 'IT Systems Administrator (Internship)',
+      url: 'https://www.wittur.com/',
       companylogo: require('../assets/img/wittur.png'),
       date: 'Feb 2019 – Feb 2020',
     },
     {
       role: 'IT Management Assistant (Apprenticeship)',
+      url: 'https://www.bmwgroup.com/',
       companylogo: require('../assets/img/bmw.png'),
       date: 'Sep 2015 – Jan 2018',
     },

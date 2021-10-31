@@ -2,57 +2,47 @@ import React, { useState, useEffect, useCallback } from "react";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Skeleton from "react-loading-skeleton";
-import axios from "axios";
 
 const ProjectCard = ({ value }) => {
   const {
     name,
     description,
-    svn_url,
-    stargazers_count,
-    languages_url,
-    pushed_at,
+    html_url,
+    type,
   } = value;
   return (
     <Col md={6}>
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
         <Card.Body>
           <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
-          <Card.Text>{(!description) ? "" : description || <Skeleton count={3} />} </Card.Text>
-          {svn_url ? <CardButtons svn_url={svn_url} /> : <Skeleton count={2} />}
+          <Card.Subtitle class="text-muted">{type || <Skeleton />} </Card.Subtitle>
           <hr />
-          {languages_url ? (
-            <Language languages_url={languages_url} repo_url={svn_url} />
-          ) : (
-            <Skeleton count={3} />
-          )}
-          {value ? (
-            <CardFooter star_count={stargazers_count} repo_url={svn_url} pushed_at={pushed_at} />
-          ) : (
-            <Skeleton />
-          )}
+          <Card.Text>
+            {(!description) ? "" : <List items={description} /> || <Skeleton count={3} />}
+          </Card.Text>
+          {html_url ? <CardButtons html_url={html_url} /> : ""}
         </Card.Body>
       </Card>
     </Col>
   );
 };
 
-const CardButtons = ({ svn_url }) => {
+const List = ({ items }) => {
+  const listItems = items.map((items) => <li>{items}</li>); return (
+    <ul>{listItems}</ul>);
+}
+
+const CardButtons = ({ html_url }) => {
   return (
     <>
-      <a
-        href={`${svn_url}/archive/master.zip`}
-        className="btn btn-outline-secondary mr-3"
-      >
-        <i className="fab fa-github" /> Clone Project
-      </a>
-      <a href={svn_url} target=" _blank" className="btn btn-outline-secondary">
+      <a href={html_url} target=" _blank" className="btn btn-outline-secondary">
         <i className="fab fa-github" /> Repo
       </a>
     </>
   );
 };
 
+/*
 const Language = ({ languages_url, repo_url }) => {
   const [data, setData] = useState([]);
 
@@ -95,42 +85,16 @@ const Language = ({ languages_url, repo_url }) => {
     </div>
   );
 };
+*/
 
+/*
 const CardFooter = ({ star_count, repo_url, pushed_at }) => {
-  const [updated_at, setUpdated_at] = useState("0 mints");
-
-  const handleUpdatetime = useCallback(() => {
-    const date = new Date(pushed_at);
-    const nowdate = new Date();
-    const diff = nowdate.getTime() - date.getTime();
-    const hours = Math.trunc(diff / 1000 / 60 / 60);
-
-    if (hours < 24) {
-      if (hours < 1) return setUpdated_at("just now");
-      let measurement = hours === 1 ? "hour" : "hours";
-      return setUpdated_at(`${hours.toString()} ${measurement} ago`);
-    } else {
-      const options = { day: "numeric", month: "long", year: "numeric" };
-      const time = new Intl.DateTimeFormat("en-US", options).format(date);
-      return setUpdated_at(`on ${time}`);
-    }
-  }, [pushed_at]);
-
-  useEffect(() => {
-    handleUpdatetime();
-  }, [handleUpdatetime]);
-
   return (
     <p className="card-text">
-      <a
-        href={repo_url + "/stargazers"}
-        target=" _blank"
-        className="text-dark text-decoration-none"
-      >
-      </a>
-      <small className="text-muted">Updated {updated_at}</small>
+      <small className="text-muted">Updated b</small>
     </p>
   );
 };
+*/
 
 export default ProjectCard;

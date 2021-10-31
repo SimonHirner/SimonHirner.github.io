@@ -57,6 +57,56 @@ const repos = {
   gitHubUsername: "SimonHirner", //i.e."johnDoe12Gh"
   reposLength: 8,
   specificRepos: [],
+  repoList:
+    [
+      {
+        "name": "Learning management system",
+        "type": "Project at Munich University of Applied Sciences",
+        "html_url": "https://github.com/SimonHirner/agenda20",
+        "description": [
+          "Web application for managing courses and tasks",
+          "Eight weeks of development",
+          "Tech stack: Java (Spring Boot), HTML, CSS",
+        ],
+        "languages_url": "https://api.github.com/repos/SimonHirner/agenda20/languages",
+      },
+      {
+        "name": "Native chat application",
+        "type": "Project at Munich University of Applied Sciences",
+        "html_url": "https://github.com/SimonHirner/chat-app",
+        "description": [
+          "Native java application with client–server model",
+          "Tech stack: Java (JavaFX)",
+        ],
+        "languages_url": "https://api.github.com/repos/SimonHirner/chat-app/languages",
+      },
+      {
+        "name": "Decentralized application for trading intangible assets",
+        "type": "Project at Munich University of Applied Sciences",
+        "html_url": "https://github.com/SimonHirner/bazinga-dapp",
+        "description": [
+          "Blockchain project with smart contracts and React frontend",
+          "Three weeks of development",
+          "Tech stack: JavaScript (React), Solidity, Ethereum",
+        ],
+        "languages_url": "https://api.github.com/repos/SimonHirner/bazinga-dapp/languages",
+      },
+      {
+        "name": "Application for distributed test execution with Kubernetes",
+        "type": "Project at WWK Lebensversicherung a. G.",
+        "description": [
+          "Web application for execution and monitoring of domain specific test cases on Kubernetes Cluster",
+          "Tech stack: Java (Spring Boot, Kubernetes Client API), JavaScript (Vue.js), PostgreSQL, Docker, Kubernetes",
+        ],
+      },
+      {
+        "name": "Design and deployment of microservices with Kubernetes",
+        "type": "Bachelor thesis at Munich University of Applied Sciences",
+        "description": [
+          "Currently in progress",
+        ],
+      },
+    ],
 };
 
 // Leadership SECTION
@@ -66,20 +116,20 @@ const leadership = {
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
-    { 
-      img: require("../editable-stuff/simonhirner.jpg"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/simonhirner.jpg"),
+      label: "First slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
-    { 
-      img: require("../editable-stuff/simonhirner.jpg"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/simonhirner.jpg"),
+      label: "Second slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
+    width: "615",
+    height: "450"
   }
 };
 

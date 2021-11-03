@@ -1,11 +1,11 @@
 // Navigation Bar SECTION
 const navBar = {
-  show: true,
+  show: false,
 };
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#05B2F1, #037CF5, #014CFD",
+  gradientColors: "#0A122A, #0B2161, #0431B4",
   firstName: "Simon",
   middleName: "",
   lastName: "Hirner",
@@ -42,7 +42,7 @@ const about = {
   imageLink: require("../editable-stuff/simonhirner.jpg"),
   imageSize: 375,
   message:
-    "My name is Simon Hirner. I'm currently studying Information Systems and Management at Munich University of Applied Sciences.",
+    "My name is Simon Hirner. I'm currently studying Information Systems and Management at Munich University of Applied Sciences. On this website you can find my latest programming projects.",
   //resume: "",
 };
 
@@ -92,11 +92,20 @@ const repos = {
         "languages_url": "https://api.github.com/repos/SimonHirner/bazinga-dapp/languages",
       },
       {
+        "name": "CI/CD pipeline with Kubernetes",
+        "type": "Project Munich University of Applied Sciences",
+        "html_url": "https://github.com/SimonHirner/kubernetes-jenkins-simplist",
+        "description": [
+          "CI/CD pipeline for deploying a web application on Kubernetes",
+          "Tech stack: Java (Spring Boot), JavaScript (Vue.js), MongoDB, Docker, Kubernetes (Minikube)",
+        ],
+      },
+      {
         "name": "Application for distributed test execution with Kubernetes",
         "type": "Project at WWK Lebensversicherung a. G.",
         "description": [
           "Web application for execution and monitoring of domain specific test cases on Kubernetes Cluster",
-          "Tech stack: Java (Spring Boot, Kubernetes Client API), JavaScript (Vue.js), PostgreSQL, Docker, Kubernetes",
+          "Tech stack: Java (Spring Boot, Kubernetes Client API), JavaScript (Vue.js), PostgreSQL, Docker, Kubernetes (Rancher)",
         ],
       },
       {
@@ -164,12 +173,12 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "If you have any questions, please feel free to email me at",
+    "If you have any questions, please feel free to email me:",
   email: "simon.hirner99@gmail.com",
 };
 
 const experiences = {
-  show: true,
+  show: false,
   heading: "Experiences",
   data: [
     {

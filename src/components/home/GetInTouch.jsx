@@ -1,11 +1,12 @@
 import React from "react";
+import Obfuscate from 'react-obfuscate';
 
 const GetInTouch = ({ heading, email }) => {
   return (
     <div id="getintouch">
       <h2 className="display-4 pb-3 text-center">{heading}</h2>
       <p className="lead text-center pb-3">
-        If you have any questions, please feel free {React.createElement('a', { href: 'mailto:' + doTheTrick(email) }, 'email')} to me.
+        If you have any questions, please feel free to <Obfuscate email={doTheTrick(email)}>email</Obfuscate> me.
       </p>
     </div>
   );

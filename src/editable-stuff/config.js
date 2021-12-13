@@ -172,9 +172,7 @@ const skills = {
 const getInTouch = {
   show: true,
   heading: "Get In Touch",
-  message:
-    "If you have any questions, please feel free to email me:",
-  email: "simon.hirner99@gmail.com",
+  email: "fvzba.uveare99@tznvy.pbz",
 };
 
 const experiences = {

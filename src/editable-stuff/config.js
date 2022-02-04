@@ -39,7 +39,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/simonhirner.jpg"),
+  imageLink: "",
   imageSize: 375,
   message:
     "My name is Simon Hirner. I'm currently studying Information Systems and Management at Munich University of Applied Sciences. On this website you can find my latest programming projects.",
@@ -104,15 +104,19 @@ const repos = {
         "name": "Application for distributed test execution with Kubernetes",
         "type": "Project at WWK Lebensversicherung a. G.",
         "description": [
-          "Web application for execution and monitoring of domain specific test cases on Kubernetes Cluster",
+          "Web application for execution and monitoring of domain specific test cases on Kubernetes cluster",
           "Tech stack: Java (Spring Boot, Kubernetes Client API), JavaScript (Vue.js), PostgreSQL, Docker, Kubernetes (Rancher)",
         ],
       },
       {
-        "name": "Design and deployment of microservices with Kubernetes",
+        "name": "Design and deployment of microservices with Kubernetes using the example of a CRM-System",
         "type": "Bachelor thesis at Munich University of Applied Sciences",
+        "html_url": "https://github.com/SimonHirner/bachelor-thesis",
         "description": [
-          "Currently in progress",
+          "Simplified CRM-System with microservice architecture",
+          "Deployment, service discovery, load balancing and horizontal scaling with Kubernetes",
+          "Three months of development",
+          "Tech stack: Java (Spring Boot), JavaScript (React), MongoDB, Docker, Kubernetes (minikube)",
         ],
       },
     ],
@@ -126,12 +130,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     {
-      img: require("../editable-stuff/simonhirner.jpg"),
+      img: "",
       label: "First slide label",
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
     {
-      img: require("../editable-stuff/simonhirner.jpg"),
+      img: "",
       label: "Second slide label",
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },

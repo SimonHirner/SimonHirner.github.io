@@ -109,11 +109,11 @@ const repos = {
         ],
       },
       {
-        "name": "Design and deployment of microservices with Kubernetes using the example of a CRM-System",
+        "name": "Design and deployment of microservices with Kubernetes using the example of a CRM system",
         "type": "Bachelor thesis at Munich University of Applied Sciences",
         "html_url": "https://github.com/SimonHirner/bachelor-thesis",
         "description": [
-          "Simplified CRM-System with microservice architecture",
+          "Simplified CRM system with microservice architecture",
           "Deployment, service discovery, load balancing and horizontal scaling with Kubernetes",
           "Three months of development",
           "Tech stack: Java (Spring Boot), JavaScript (React), MongoDB, Docker, Kubernetes (minikube)",

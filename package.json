@@ -12,6 +12,7 @@
     "popper.js": "^1.15.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-obfuscate": "^3.6.8",
     "react-scripts": "^5.0.0",
     "react-typed": "^1.1.2",
     "sass": "^1.49.9",

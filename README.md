@@ -4,12 +4,9 @@ This is my personal website/portfolio showcasing my recent projects.
 
 ## Tech Stack
 
-Dependencies defined in package.json:
-
-- [React](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com/)
-- [Typist](https://github.com/jstejada/react-typist)
-- [GitHub API](https://developer.github.com/v3/repos/)
+- React
+- Bootstrap
+- GitHub Pages
 
 ## Structure
 

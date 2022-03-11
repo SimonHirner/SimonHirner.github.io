@@ -16,13 +16,13 @@ h6 {
 }
 
 a {
-  color: #1e1e1e;
+  color: #0078ff;
   transition: all 0.5s ease-in-out;
 }
 
 a:hover {
   color: #0078ff;
-  text-decoration: none;
+  text-decoration: underline;
   transition: all 0.5s ease-in-out;
 }
 

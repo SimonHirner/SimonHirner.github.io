@@ -10,7 +10,7 @@
     "lightbox2": "^2.11.0",
     "normalize.css": "^8.0.1",
     "popper.js": "^1.15.0",
-    "react": "^16.8.6",
+    "react": "^16.14.0",
     "react-dom": "^16.8.6",
     "react-obfuscate": "^3.6.8",
     "react-scripts": "^5.0.0",

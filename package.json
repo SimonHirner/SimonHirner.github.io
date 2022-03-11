@@ -17,7 +17,7 @@
     "react-typed": "^1.2.0",
     "sass": "^1.49.9",
     "tar": "^6.1.11",
-    "typed.js": "^2.0.10"
+    "typed.js": "^2.0.12"
   },
   "scripts": {
     "predeploy": "npm run build",

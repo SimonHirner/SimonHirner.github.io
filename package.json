@@ -14,7 +14,7 @@
     "react-dom": "^16.8.6",
     "react-obfuscate": "^3.6.8",
     "react-scripts": "^5.0.0",
-    "react-typed": "^1.1.2",
+    "react-typed": "^1.2.0",
     "sass": "^1.49.9",
     "tar": "^6.1.11",
     "typed.js": "^2.0.10"

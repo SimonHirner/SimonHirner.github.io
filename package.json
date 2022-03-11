@@ -9,7 +9,7 @@
     "jquery": "^3.4.1",
     "lightbox2": "^2.11.0",
     "normalize.css": "^8.0.1",
-    "popper.js": "^1.15.0",
+    "popper.js": "^1.16.1",
     "react": "^16.14.0",
     "react-dom": "^16.8.6",
     "react-obfuscate": "^3.6.8",

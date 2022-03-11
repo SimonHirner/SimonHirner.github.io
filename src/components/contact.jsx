@@ -1,5 +1,4 @@
 import React from "react";
-import imageOverlay from "../img/earth.jpg";
 import Obfuscate from "react-obfuscate";
 
 class Contact extends React.Component {

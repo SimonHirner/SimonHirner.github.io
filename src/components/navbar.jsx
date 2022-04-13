@@ -3,6 +3,7 @@ import $ from "jquery";
 
 import logo1 from "../img/logo-black-white.png";
 import logo2 from "../img/logo.png";
+import bootstrapMin from "bootstrap/dist/js/bootstrap.min";
 
 class Navbar extends React.Component {
   constructor() {
@@ -22,10 +23,10 @@ class Navbar extends React.Component {
       }
     });
 
-    $("body").scrollspy({
+    var scrollSpy = new bootstrapMin.ScrollSpy(document.body, {
       target: "#mainNav",
       offset: navHeight
-    });
+    })
 
     $(".js-scroll").on("click", function() {
       $(".navbar-collapse").collapse("hide");

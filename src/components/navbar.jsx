@@ -23,6 +23,7 @@ class Navbar extends React.Component {
       }
     });
 
+    // eslint-disable-next-line
     var scrollSpy = new bootstrapMin.ScrollSpy(document.body, {
       target: "#mainNav",
       offset: navHeight

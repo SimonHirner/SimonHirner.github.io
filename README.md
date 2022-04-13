@@ -10,11 +10,11 @@ This is my personal website/portfolio showcasing my recent projects.
 
 ## Structure
 
-- Navigation bar
-- Body
-- About Me
-- Recent Projects
-- Footer
+- Navigation
+- Intro
+- About
+- Projects
+- Contact
 
 ## Setup
 
@@ -29,7 +29,3 @@ This is my personal website/portfolio showcasing my recent projects.
     npm run build
     npm run deploy
    ```
-
-## Notice
-
-This Project is based on a [template](https://github.com/hashirshoaeb/home) from [Hashir Shoaib](https://github.com/hashirshoaeb).

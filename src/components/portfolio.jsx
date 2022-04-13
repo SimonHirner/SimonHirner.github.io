@@ -28,7 +28,7 @@ class Portfolio extends React.Component {
                         <li>Eight weeks of development</li>
                         <li>Tech stack: Java (Spring Boot), HTML, CSS</li>
                       </ul>
-                      <a href="https://github.com/SimonHirner/agenda20" target="_blank" className="btn btn-outline-dark">
+                      <a href="https://github.com/SimonHirner/agenda20" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark">
                         <i className="ion-social-github" /> Git Repository
                       </a>
                     </div>
@@ -48,7 +48,7 @@ class Portfolio extends React.Component {
                         <li>Native java application with client-server model</li>
                         <li>Tech stack: Java (JavaFX)</li>
                       </ul>
-                      <a href="https://github.com/SimonHirner/chat-app" target="_blank" className="btn btn-outline-dark">
+                      <a href="https://github.com/SimonHirner/chat-app" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark">
                         <i className="ion-social-github" /> Git Repository
                       </a>
                     </div>
@@ -72,7 +72,7 @@ class Portfolio extends React.Component {
                         <li>Three weeks of development</li>
                         <li>Tech stack: JavaScript (React), Solidity, Ethereum</li>
                       </ul>
-                      <a href="https://github.com/SimonHirner/bazinga-dapp" target="_blank" className="btn btn-outline-dark">
+                      <a href="https://github.com/SimonHirner/bazinga-dapp" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark">
                         <i className="ion-social-github" /> Git Repository
                       </a>
                     </div>
@@ -92,7 +92,7 @@ class Portfolio extends React.Component {
                         <li>CI/CD pipeline for deploying a web application on Kubernetes</li>
                         <li>Tech stack: Java (Spring Boot), JavaScript (Vue.js), MongoDB, Docker, Kubernetes (Minikube)</li>
                       </ul>
-                      <a href="https://github.com/SimonHirner/kubernetes-jenkins-simplist" target="_blank" className="btn btn-outline-dark">
+                      <a href="https://github.com/SimonHirner/kubernetes-jenkins-simplist" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark">
                         <i className="ion-social-github" /> Git Repository
                       </a>
                     </div>
@@ -134,7 +134,7 @@ class Portfolio extends React.Component {
                         <li>Three months of development</li>
                         <li>Tech stack: Java (Spring Boot), JavaScript (React), MongoDB, Docker, Kubernetes (minikube)</li>
                       </ul>
-                      <a href="https://github.com/SimonHirner/bachelor-thesis" target="_blank" className="btn btn-outline-dark">
+                      <a href="https://github.com/SimonHirner/bachelor-thesis" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark">
                         <i className="ion-social-github" /> Git Repository
                       </a>
                     </div>

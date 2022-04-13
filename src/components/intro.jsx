@@ -21,7 +21,7 @@ class Intro extends React.Component {
                   <Typed
                     strings={[
                       "Software Engineering Student",
-                      "B.Sc. in Information Systems and Management",
+                      "B.Sc. Information Systems and Management",
                       "BMW Fastlane Scholarship Holder",
                       "Certified IT Management Assistant"
                     ]}

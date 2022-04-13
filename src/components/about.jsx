@@ -8,7 +8,7 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "My name is Simon Hirner. I'm currently studying for a master's degree in Software Engineering at the University of Innsbruck. On this website you can find my latest programming projects."
+            "My name is Simon Hirner. I am currently studying for a master's degree in Software Engineering at the University of Innsbruck. On this website you can find my latest programming projects."
         }
       ]
     };

@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://simonhirner.de/",
   "dependencies": {
-    "bootstrap": "^5.1.3",
+    "bootstrap": "^5.2.0",
     "gh-pages": "^3.2.3",
     "jquery": "^3.4.1",
     "lightbox2": "^2.11.3",

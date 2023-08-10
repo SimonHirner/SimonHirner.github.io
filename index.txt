@@ -15,10 +15,10 @@ Phone
 +49 1512 2210891
 
 Birthday
-25.05.1999
+May 25, 1999
 
 Location
-Munich & Innsbruck
+Munich / Innsbruck
 
 # navbar
 
@@ -32,10 +32,7 @@ Contact
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
-
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
-
+I am currently studying for a master's degree in Software Engineering at the University of Innsbruck and I am a scholarship holder of BMW's Fastlane program. As a driven software engineering student, I am passionate about using my technical skills to build innovative and impactful solutions. I am constantly learning new technologies to improve my abilities, and I am excited to apply my knowledge to real-world projects.
 
 ## service
 
@@ -185,6 +182,47 @@ Web development
 
 
 
+# blog
+
+Blog
+
+alt = Design conferences in 2022
+Design
+Fab 23, 2022
+Design conferences in 2022
+Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+
+alt = Best fonts every designer
+Design
+Fab 23, 2022
+Best fonts every designer
+Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+
+alt = Design digest #80
+Design
+Fab 23, 2022
+Design digest #80
+Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+
+alt = UI interactions of the week
+Design
+Fab 23, 2022
+UI interactions of the week
+Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+
+alt = The forgotten art of spacing
+Design
+Fab 23, 2022
+The Forgotten Art Of Spacing
+Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+alt = Design digest #79
+Design
+Fab 23, 2022
+Design Digest #79
+Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+
+
 
 # contact
 
@@ -192,7 +230,7 @@ Contact
 
 Contact Form
 
-Name
+Full name
 Email address
 Your Message
 

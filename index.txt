@@ -22,15 +22,15 @@ Munich / Innsbruck
 
 # navbar
 
-About
+About Me
 Resume
 Portfolio
-Blog
+Projects
 Contact
 
 # about
 
-About me
+About Me
 
 I am currently studying for a master's degree in Software Engineering at the University of Innsbruck and I am a scholarship holder of BMW's Fastlane program. As a driven software engineering student, I am passionate about using my technical skills to build innovative and impactful solutions. I am constantly learning new technologies to improve my abilities, and I am excited to apply my knowledge to real-world projects.
 
@@ -163,9 +163,9 @@ Web development
 
 
 
-# blog
+# projects
 
-Blog
+Projects
 
 alt = Design conferences in 2022
 Design

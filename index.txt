@@ -22,15 +22,15 @@ Munich / Innsbruck
 
 # navbar
 
-About
+About Me
 Resume
 Portfolio
-Blog
+Projects
 Contact
 
 # about
 
-About me
+About Me
 
 I am currently studying for a master's degree in Software Engineering at the University of Innsbruck and I am a scholarship holder of BMW's Fastlane program. As a driven software engineering student, I am passionate about using my technical skills to build innovative and impactful solutions. I am constantly learning new technologies to improve my abilities, and I am excited to apply my knowledge to real-world projects.
 
@@ -55,25 +55,6 @@ Photography
 I make high-quality photos of any category at a professional level.
 
 
-## testimonials
-
-Testimonials
-
-alt = Daniel lewis
-Daniel lewis
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-
-alt = Jessica miller
-Jessica miller
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-
-alt = Emily evans
-Emily evans
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-
-alt = Henry william
-Henry william
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
 
 
 ## clients
@@ -182,9 +163,9 @@ Web development
 
 
 
-# blog
+# projects
 
-Blog
+Projects
 
 alt = Design conferences in 2022
 Design

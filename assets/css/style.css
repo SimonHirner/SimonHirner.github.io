@@ -320,6 +320,10 @@ main {
   transition: var(--transition-2);
 }
 
+.profile-picture {
+  border-radius: 20px;
+}
+
 .sidebar.active { max-height: 405px; }
 
 .sidebar-info {

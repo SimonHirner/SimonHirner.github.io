@@ -415,7 +415,7 @@ main {
 }
 
 .contact-title {
-  color: var(--light-gray-70);
+  color: var(--white-2);
   font-size: var(--fs-8);
   text-transform: uppercase;
   margin-bottom: 2px;
@@ -1111,6 +1111,8 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  list-style: square;
+  margin-left: 15px;
 }
 
 
@@ -1338,7 +1340,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img {
+    width: 120px;
+    border-radius: 20px;  
+  }
 
   .info-content .name { margin-bottom: 15px; }
 
